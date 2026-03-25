@@ -52,3 +52,18 @@
       padding: 20px;
       color: #64748b;
     }
+
+    nav {
+  background: #1e293b;
+  padding: 15px 20px;
+}
+
+nav a {
+  margin-right: 15px;
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
