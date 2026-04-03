@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greenhouse/Hydroponics Monitor | Shaymon Madrid</title>
+
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <nav>
+    <a href="../index.html">Home</a> |
+    <a href="../projects.html">Projects</a>
+  </nav>
+
+  <section>
+    <h1>Greenhouse/Hydroponics Monitor</h1>
+    <p>
+      This project monitors environmental conditions in a greenhouses and/or hydroponic systems,
+      providing real-time data and alerts environmental monitoring.
+    </p>
+
+    <h2>What it does</h2>
+    <p>This project monitors temperature and humidity levels with a DHT11 sensor. 
+        The STM32 microcontroller reads this data and processes it for real-time monitoring and displays it on an LCD screen. 
+        Water level is measured using an analog water level/soil moisture sensor which is then also processed and displayed. 
+        The on-board button is used to change which sensor data is currently displayed on the LCD screen. 
+        Future plans include adding capability to enable external devices such as fans as well as other sensors.</p>
+
+    <h2>Tools / Technologies</h2>
+    <ul>
+      <li>C language</li>
+      <li>CubeMX</li>
+      <li>STMCubeIDE</li>
+      <li>STM32 Nucleo L476RG Microcontroller</li>
+      <li>DHT11 Temperature/Humidity Sensor</li>
+      <li>Analog Water Level/Soil Moisture Sensor</li>
+      <li>16x2 LCD Display</li>
+    </ul>
+
+    <h2>Screenshots</h2>
+    <img src="../images/greenhouse-monitor-1.png" alt="Greenhouse monitor screenshot" width="600">
+
+    <h2>Repository</h2>
+    <p><a href="https://github.com/Bantanamous/ECEN_260_Final_Project" target="_blank">GitHub Repo</a></p>
+  </section>
+</body>
+</html>
