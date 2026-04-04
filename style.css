@@ -67,3 +67,11 @@ nav a {
 nav a:hover {
   text-decoration: underline;
 }
+
+.container {
+    width: 100%;        /* Takes up full width on small screens */
+    max-width: 800px;   /* Stops growing once it hits 800px on desktop */
+    margin: 0 auto;     /* Centers the box on the screen */
+    padding: 0 20px;    /* Keeps text from touching the very edge of the phone */
+    box-sizing: border-box; /* Ensures padding doesn't make the box wider than 100% */
+}
