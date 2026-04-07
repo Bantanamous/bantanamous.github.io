@@ -37,7 +37,8 @@
     <p>This project monitors temperature and humidity levels with a DHT11 sensor. 
         The STM32 microcontroller reads this data and processes it for real-time monitoring and displays it on an LCD screen. 
         Water level is measured using an analog water level/soil moisture sensor which is then also processed and displayed. 
-        The on-board button is used to change which sensor data is currently displayed on the LCD screen. 
+        The on-board button is used to change which sensor data is currently displayed on the LCD screen. The current implementation of the project includes a set GPIO pin to enable a fan, 
+        it is not included due to the current draw being too much for the board to handle and my current lack of another power source for the motor.  
         Future plans include adding capability to enable external devices such as fans as well as other sensors.</p>
 
     <h2>Tools / Technologies</h2>
@@ -57,12 +58,16 @@
       <img src="../images/ecen_260/circuit.png" alt="Greenhouse monitor schematic" width="600">
       <figcaption>Greenhouse monitor schematic</figcaption>
     </figure>
-    <!-- <img src="../images/greenhouse-monitor-1.png" alt="Greenhouse monitor screenshot" width="600"> -->
 
+    <figure>
+      <img src="../images/ecen_260/project.jpg" alt="Completed Project" width="600">
+      <figcaption>Complete Project (fan is not included due to power constraints)</figcaption>
+    </figure>
+    
     <h2>Documentation</h2>
     <ul>
       <li><a href="../documents/ecen_260/Final Project Design.pdf" target="_blank">Design Essay</a></li>
-      <li><a href="../documents/ecen_260/" target="_blank">Project Report</a></li>
+      <li><a href="../documents/ecen_260/ECEN_260_Final_Project_Report_2026.pdf" target="_blank">Project Report</a></li>
     </ul>
 
     <h2>Repository</h2>
