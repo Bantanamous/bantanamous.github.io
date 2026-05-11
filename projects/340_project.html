@@ -3,22 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Page Title</title>
+  <title>340 Project</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="projects.html">Projects</a>
-  <a href="https://byuiars.reop.net/">BYU-Idaho ARS</a>
-</nav>
-
-<div id="nav-placeholder"></div>
+  <div id="nav-placeholder"></div>
 
   <script>
-    fetch('./nav.html')
+    fetch('../nav.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('nav-placeholder').innerHTML = data;
@@ -26,19 +20,18 @@
       .catch(error => console.error('Nav load failed:', error));
   </script>
 
-<header>
-  <h1>Page Title</h1>
+  <section>
+    <h1>Page Title</h1>
   <p>Optional subtitle</p>
-</header>
 
-<section>
-  <h2>Main Content</h2>
-  <p>Your content goes here.</p>
-</section>
+  </section>
 
-<footer>
-  © 2026 Shaymon Madrid
-</footer>
+  <footer>
+    © 2026 Shaymon Madrid
+  </footer>
 
 </body>
 </html>
+  <h2>Main Content</h2>
+  <p>Your content goes here.</p>
+</section>

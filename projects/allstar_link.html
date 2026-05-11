@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Allstar link Repeater</title>
-
   <link rel="stylesheet" href="../style.css">
 </head>
 
@@ -12,7 +12,7 @@
   <div id="nav-placeholder"></div>
 
   <script>
-    fetch('./nav.html')
+    fetch('../nav.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('nav-placeholder').innerHTML = data;
@@ -23,7 +23,7 @@
   <section>
     <h1>Allstar link Repeater</h1>
     <p>
-      This project is a simple Allstar link repeater that can extend the range of Allstar network connections. It is designed to receive signals from one Allstar node and retransmit them to another, effectively creating a bridge between two separate Allstar networks.
+      This project is a simple Allstar link simplex node that can extend the range of Allstar network connections. It is designed to receive signals from one Allstar node and retransmit them to another, effectively creating a bridge between two separate Allstar networks.
     </p>
 
     <h2>What it does</h2>
@@ -31,7 +31,8 @@
 
     <h2>Tools / Technologies</h2>
     <ul>
-      <li>WIP</li>
+      <li>Raspberry Pi 4B</li>
+      <li><a href="https://www.masterscommunications.com/products/radio-adapter/ra25.html" target="_blank" rel="noopener noreferrer">RA 25 Audio Interface</a></li>
     </ul>
 
     <h2>Images</h2>

@@ -9,16 +9,10 @@
 
 <body>
 
-<!-- <nav>
-  <a href="../index.html">Home</a>
-  <a href="../projects.html">Projects</a>
-  <a href="https://byuiars.reop.net/">BYU-Idaho ARS</a>
-</nav> -->
-
-<div id="nav-placeholder"></div>
+  <div id="nav-placeholder"></div>
 
   <script>
-    fetch('/nav.html')
+    fetch('../nav.html')
       .then(response => response.text())
       .then(data => {
         document.getElementById('nav-placeholder').innerHTML = data;
@@ -50,7 +44,7 @@
       <li>DHT11 Temperature/Humidity Sensor</li>
       <li>Analog Water Level/Soil Moisture Sensor</li>
       <li>16x2 LCD Display</li>
-      <li><a href="https://www.circuit-diagram.org/" target="_blank">Circuit Diagram</a></li>
+      <li><a href="https://www.circuit-diagram.org/" target="_blank" rel="noopener noreferrer">Circuit Diagram</a></li>
     </ul>
 
     <h2>Images</h2>
@@ -71,7 +65,8 @@
     </ul>
 
     <h2>Repository</h2>
-    <p><a href="https://github.com/Bantanamous/ECEN_260_Final_Project" target="_blank">GitHub Repo</a></p>
+    <p><a href="https://github.com/Bantanamous/ECEN_260_Final_Project" target="_blank" rel="noopener noreferrer">GitHub Repo</a></p>
+
   </section>
 
   <footer>
