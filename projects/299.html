@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ECEN 299 PCB</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <div id="nav-placeholder"></div>
+
+  <script>
+    fetch('../nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+      })
+      .catch(error => console.error('Nav load failed:', error));
+  </script>
+
+  <section>
+    <h1>ECEN 299 PCB</h1>
+    <p>
+      
+    </p>
+
+    <h2>What it does</h2>
+    <p></p>
+
+    <h2>Tools / Technologies</h2>
+    <ul>
+        <li>Altium Designer</li>
+        <li>Function Generator</li>
+        <li>Oscilloscope</li>
+
+    </ul>
+
+    <h2>Images</h2>
+    <!-- <img src="../images/ecen_350/completed.jpg" alt="5V DC power supply" width="600"> -->
+
+    <h2>Documentation/Reference Material</h2>
+    <ul>
+      <li>
+        <a href="https://allstarlink.github.io/" target="_blank" rel="noopener noreferrer">Allstar Link Documentation</a>
+      </li>
+      <li>
+        <a href="https://www.masterscommunications.com/products/radio-adapter/ra25.html" target="_blank" rel="noopener noreferrer">RA 25 Audio Interface Manual</a>
+      </li>
+      <li>
+        <a href="https://www.repeater-builder.com/motorola/cdm/cdm-index.html" target="_blank" rel="noopener noreferrer">Motorola CDM Documentation</a>
+      </li>      
+    </ul>
+    
+    
+    <h2>References</h2>
+    <p><a href="" target="_blank"></a></p>
+
+    <h6>A special thanks to KI5TLZ for providing a radio and much needed mentorship for this project!</h6>
+
+  </section>
+
+  <footer>
+    © 2026 Shaymon Madrid
+  </footer>
+
+</body>
+</html>
