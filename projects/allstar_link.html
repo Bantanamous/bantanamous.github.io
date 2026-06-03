@@ -29,6 +29,12 @@
     <h2>What it does</h2>
     <p>This project extends the range of Allstar network connections by receiving signals from one node and retransmitting them to another. A goal for the future is to implement full repeater capabilities and permanently install it in Arizona. </p>
 
+    <h3>Basic commands</h3>
+    <li>*70 -- To check the status of the node (See if the node is connected to other nodes)</li>
+    *806 -- Disconnects connected nodes. Do this before connecting a new node.
+    *1 [node number] -- Disconnects a specific node number
+    *3 [node number] -- Connects to a node number (DO NOT CONNECT TO A NODE WITHOUT DISCONNECTING FROM ALL OTHER CONNECTED NODES)
+    
     <h2>Tools / Technologies</h2>
     <ul>
       <li>Raspberry Pi 4B</li>
@@ -36,7 +42,7 @@
       <li>Motorola CDM 1250</li>
     </ul>
 
-    <h2>Images</h2>
+    <!-- <h2>Images</h2> -->
     <!-- <img src="../images/ecen_350/completed.jpg" alt="5V DC power supply" width="600"> -->
 
     <h2>Documentation/Reference Material</h2>

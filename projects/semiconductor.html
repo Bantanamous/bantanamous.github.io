@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semiconductor Research</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <div id="nav-placeholder"></div>
+
+  <script>
+    fetch('../nav.html')
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById('nav-placeholder').innerHTML = data;
+      })
+      .catch(error => console.error('Nav load failed:', error));
+  </script>
+
+  <section>
+    <h1>
+
+    </h1>
+
+    
+    <h2>Tools / Technologies</h2>
+    <ul>
+      <li>Raspberry Pi 4B</li>
+      <li><a href="https://www.masterscommunications.com/products/radio-adapter/ra25.html" target="_blank" rel="noopener noreferrer">RA 25 Audio Interface</a></li>
+      <li>Motorola CDM 1250</li>
+    </ul>
+
+    <!-- <h2>Images</h2> -->
+    <!-- <img src="../images/ecen_350/completed.jpg" alt="5V DC power supply" width="600"> -->
+
+    <h2>Documentation/Reference Material</h2>
+    <ul>
+      <li>
+        <a href="https://allstarlink.github.io/" target="_blank" rel="noopener noreferrer">Allstar Link Documentation</a>
+      </li>
+    </ul>
+    
+    
+    <h2>References</h2>
+    <p><a href="" target="_blank"></a></p>
+
+  </section>
+
+  <footer>
+    © 2026 Shaymon Madrid
+  </footer>
+
+</body>
+</html>
